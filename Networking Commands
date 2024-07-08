@@ -1,0 +1,12 @@
+Networking Commands:
+----------------------------
+1. if config/ip addr show
+2. ping <ip address>/hostname
+3. netstat -antp (shows open ports and processes)
+4. ss -tunlp (shows open ports and processes)
+5. nmap <target machine> (shows open ports and processes)
+6. dig <target machine> (shows dns record) (e.g: dig www.google.com)
+7. nslookup <target machine> (shows dns record) (e.g: nslookup www.google.com)
+8. route -n (shows gateways)
+9. arp (to see mac address of the machine)
+10. telnet <ip addr> <port>
